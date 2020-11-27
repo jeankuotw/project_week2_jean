@@ -92,11 +92,19 @@ p{
 
 /* ==== header:main_img主視覺+聯絡 ==== */
 header{
+  /*圖片*/
+  max-width: 1920px; 
+  height:958px; 
+  position: relative;
+  /*文字*/
   padding-top: 356px;
   color:#fff;
   /*水平置中*/
   display:flex;
   justify-content: center;    
+}
+header div{
+  position:absolute;
 }
 header div p{
   line-height: 42px;
@@ -115,13 +123,17 @@ header div h3{
   font-weight: 500;
   margin-bottom: 48px;
 }
-
 header a{
   margin-right: 16px;
 }
 header a:last-child{
   margin-right: 0;
 }
+header a img{
+  width: 60px; 
+  height: 60px;
+}
+
 /* ==== header end ==== */
 
 
